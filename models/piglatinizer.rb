@@ -9,7 +9,7 @@ class PigLatinizer
   # example: Noodle Soup = oodlenay oupsay
   def latinize
     init_consonant = @text[0]
-    piglatin_string = @string[1, -1].concat(init_consonant).concat("ay")
+    piglatin_string = @text[1, -1].concat(init_consonant).concat("ay")
     piglatin_string
   end
 
