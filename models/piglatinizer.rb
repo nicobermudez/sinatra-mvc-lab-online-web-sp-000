@@ -1,7 +1,7 @@
 class PigLatinizer
 
-  def initialize(string)
-    @string = string.downcase
+  def initialize(text)
+    @text= string.downcase
   end
 
 
