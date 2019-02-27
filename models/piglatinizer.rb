@@ -12,6 +12,7 @@ class PigLatinizer
     init_consonant = @text[0]
     piglatin_string = @text[1, -1] << init_consonant)
     piglatin_string << "ay"
+    piglatin_string
   end
 
 
