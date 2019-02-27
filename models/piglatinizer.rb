@@ -5,7 +5,8 @@ class PigLatinizer
   end
 
   def latinize
-    dn
+    
+  end
 
 
 end
