@@ -10,7 +10,7 @@ class PigLatinizer
   def latinize
     init_consonant = @string[0]
     piglatin_string = @string[1, -1].concat(init_consonant).concat("ay")
-
+    piglatin_string
   end
 
 
