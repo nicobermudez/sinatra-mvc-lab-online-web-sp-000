@@ -10,7 +10,7 @@ class PigLatinizer
   # example: Noodle Soup = oodlenay oupsay
   def latinize
     init_consonant = @text[0]
-    piglatin_string = @text[1, -1] << init_consonant)
+    piglatin_string = @text[1, -1] << init_consonant
     piglatin_string << "ay"
     piglatin_string
   end
