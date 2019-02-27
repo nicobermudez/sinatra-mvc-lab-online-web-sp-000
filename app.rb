@@ -7,6 +7,7 @@ class App < Sinatra::Base
   end
 
   post '/' do
+    params
   end
 
 end
